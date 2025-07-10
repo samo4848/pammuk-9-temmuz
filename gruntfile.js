@@ -25,7 +25,7 @@ module.exports = function (grunt) {
     dest: globalConfig.exampleDir + "/three.min.js"
   }
 
-  // 'typescript' görevi 'ts' olarak güncellendi
+  // 'typescript' görevi 'ts' olarak güncellendi ve 'dest' kullanılıyor
   configuration.ts = {
     options: {
       target: "es5",
